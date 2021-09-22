@@ -1,0 +1,321 @@
+/* =====================================================
+BENDRI STILIAI
+======================================================*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.general-section {
+    padding: 100px 0;
+}
+
+.general-section .container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.general-section .title-part {
+    text-align: center;
+    margin-bottom: 71px;
+}
+
+.general-section .title-part h2 {
+    color: #222222;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.general-section .title-part .red-row {
+    background: #EB5757;
+    width: 31px;
+    height: 5px;
+    margin: 19px auto;
+}
+
+.general-section .title-part p {
+    color: #222222;
+    font-size: 20px;
+    margin: 0;
+    max-width: 700px;
+    display: inline-block;
+}
+
+/* =====================================================
+NAV BAR
+======================================================*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    /* background-color: #FFFFFF; */
+    padding: 47px 72px;
+    box-sizing: border-box;
+}
+
+nav h1 {
+    font-size: 22px;
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222222;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 63px;
+}
+
+nav ul .active a,
+nav a:hover {
+    color: #EB5757;
+}
+
+/* =====================================================
+HEADER
+======================================================*/
+
+header {
+    height: calc(100vh - 120px);
+    background-image: url('images/header.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header .content {
+    width: 100;
+    max-width: 1200px;
+}
+
+header h1 {
+    font-size: 80px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+header p {
+    font-size: 40px;
+    color: #FFFFFF;
+    margin: 16px 0 43px;
+}
+
+header .buttons a {
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 15px 66px;
+    display: inline-block;
+}
+
+header .buttons .primary-button {
+    color: white;
+    background: #EB5757;
+    margin-right: 21px;
+}
+
+header .buttons .secondary-button {
+    color: #EB5757;
+    background: white;
+}
+
+header .buttons .secondary-button:hover {
+    color: white;
+    background: #EB5757;
+}
+
+/* =====================================================
+CITATA
+======================================================*/
+
+.citation {
+    background: #EB5757;
+    padding: 39px 0;
+}
+
+.citation p {
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* =====================================================
+ATLIKEJAI
+======================================================*/
+.artists-section {
+    background: #F8F8F8;
+}
+
+.artists-section .content-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.artists-section .content-part .artist-block {
+    width: 25%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 28px 45px;
+    margin: 0;
+}
+
+.artists-section .content-part .artist-block h3 {
+    text-transform: uppercase;
+    color: #222222;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin: 36px 0 8px;
+}
+
+.artists-section .content-part .artist-block p {
+    font-size: 16px;
+    color: #222222;
+    margin: 0;
+}
+
+.artists-section .content-part .artist-block .image img {
+    width: 238px;
+    height: 238px;
+    object-fit: cover;
+    border: 2px solid white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    margin: 0;
+}
+
+/* =====================================================
+GALERIJA
+======================================================*/
+
+.gallery-section {
+    background-color: rgba(235, 87, 87, 0.15);
+}
+
+.gallery-section .title-part {
+    margin-bottom: 58px;
+}
+
+.gallery-section .content-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1500px;
+}
+
+.gallery-section .content-part img {
+    width: 248px;
+    height: 248px;
+    object-fit: cover;
+    padding: 12px;
+}
+
+/* =====================================================
+BILIETAI
+======================================================*/
+
+.ticket-section {
+    background: #F8F8F8;
+}
+
+.ticket-section .content-part {
+    display: flex;
+    max-width: 1500px;
+    justify-content: center;
+}
+
+.ticket-section .content-part .ticket-block {
+    width: 447px;
+    height: 375px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0px 38px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.05);
+}
+
+.ticket-section .content-part .ticket-block .ticket-type h3 {
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 10px 0px 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ticket-section .content-part .ticket-block p {
+    font-size: 16px;
+    padding: 0px 73px;
+}
+
+.ticket-section .content-part .ticket-block .kaina h3 {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.ticket-section .content-part .ticket-block .kaina h3 span {
+    color: rgba(235, 87, 87, 1);
+    font-size: 26px;
+}
+
+.ticket-section .content-part .ticket-block .buttons a {
+    font-size: 16px;
+    color: white;
+    background: #EB5757;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 52px;
+    margin: 0px 90px;
+}
+
+/* =====================================================
+KAIP RASTI
+======================================================*/
+
+.location-section {
+    background: rgba(235, 87, 87, 0.15);
+}
+
+.location-section .content-part {
+    display: flex;
+    justify-content: center;
+}
+
+/* =====================================================
+FOOTERIS
+======================================================*/
+
+/* pagal nav virsuj susiformatavo */
